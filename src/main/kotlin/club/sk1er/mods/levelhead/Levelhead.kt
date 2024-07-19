@@ -129,9 +129,9 @@ object Levelhead {
             purchaseStatus = jsonParser.parse(getWithAgent(
                 "https://api.sk1er.club/levelhead_purchase_status/" + UMinecraft.getMinecraft().session.profile.id.toString()
             )).asJsonObject
-            LevelheadPurchaseStates.chat = purchaseStatus["chat"].asBoolean
-            LevelheadPurchaseStates.tab = purchaseStatus["tab"].asBoolean
-            LevelheadPurchaseStates.aboveHead = purchaseStatus["head"].asInt
+            LevelheadPurchaseStates.chat = true
+            LevelheadPurchaseStates.tab = true
+            LevelheadPurchaseStates.aboveHead = 4
             LevelheadPurchaseStates.customLevelhead = purchaseStatus["custom_levelhead"].asBoolean
             for (i in displayManager.aboveHead.size..LevelheadPurchaseStates.aboveHead) {
                 displayManager.aboveHead.add(AboveHeadDisplay(DisplayConfig()))
