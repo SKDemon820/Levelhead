@@ -1,7 +1,7 @@
 package club.sk1er.mods.levelhead.gui.components.previews
 
-import gg.essential.elementa.components.UIContainer
+import gg.essential.elementa.UIComponent
 
-open class LevelheadPreviewComponent: UIContainer() {
+open class LevelheadPreviewComponent: UIComponent() {
     open fun update() = Unit
 }

@@ -358,7 +358,7 @@ class LevelheadGUI : EssentialGUI(ElementaVersion.V1, "§lLevelhead §r§8by Sk1
         }
     }
 
-    private inner class LevelheadContainer : UIContainer() {
+    private inner class LevelheadContainer : UIComponent() {
         var title: String = ""
             set(value) {
                 titleText.setText(value)
