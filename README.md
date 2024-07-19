@@ -1,5 +1,5 @@
 ## General Information
-Levelhead is a Minecraft Mod created for the Hypixel Network `mc.hypixel.net` to show a player's network level or other stats above their head.
+Levelhead is a Minecraft Mod created for the Hypixel Network `mc.hypixel.net` to show a player's network level or other stats above their head.  This fork unlocks the now unpurchasable (due to the shop site being abandoned) extra displays.  Tab display, chat display, and 4 extra above-head displays are available for configuration and use.
 
 ## Configuration
 `/levelhead` - Primary configuration command. Opens configuration GUI
